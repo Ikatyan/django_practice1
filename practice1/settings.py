@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_exam.apps.AppExamConfig',
+    # 'upload_image.apps.UploadImageConfig',
+    'mozilla_tutorial.apps.MozillaTutorialConfig',
 ]
 
 MIDDLEWARE = [
