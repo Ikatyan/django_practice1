@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_exam.apps.AppExamConfig',
-    # 'upload_image.apps.UploadImageConfig',
+    'upload_image.apps.UploadImageConfig',
     'mozilla_tutorial.apps.MozillaTutorialConfig',
 ]
 
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'practice1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
